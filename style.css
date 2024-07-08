@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+     
+}
+#main{
+    height: 100%;
+    width: 100%;   
+    background-color:#E9B824;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(0, 225, 255);
+    background-image: url(budhha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:#5b4e285e ;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: rgb(0, 255, 8); */
+}
+#textdiv{
+    /* height: auto; */
+    position: absolute;
+    width: 400px;
+    /* background-color: white; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+    
+}
+#textdiv>h1{
+    font-size: 95px;
+    font-family: 'monument';
+    font-weight: 900;
+    line-height: 80px;
+    color: #fff;
+    letter-spacing: 8px;
+}
+#smallbox{
+    height: 400px;
+    width: 300px;  
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    background-image: url(puja.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+#overlay1{
+    height: 100%;
+    width: 100%;
+    background-color:#ffbf0041 ;
+}
+#verticletext{
+    position: absolute;
+    right: -58%;
+    top: -2%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    
+    /* width:100%; */
+}
+#verticletext h1{
+    font-size: 70px;
+    font-family: 'monument';
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    letter-spacing: 10px;
+    /* transform: rotate(90deg); */
+    
+}
+
+#nav{
+    position: absolute;
+    width: 450px;
+    display: flex;
+    top: 5%;
+    left: 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: 'monument';
+    color: #fff;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+section{
+    margin: 80px auto;
+    border: 5px solid #E9B824; 
+    border-radius: 10px;
+}
+.allculture{
+    margin-top: 40px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.variouscul{
+    width: 350px;
+}
+.variouscul img{
+    max-width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.variouscul img:hover{
+    transform: scale(1.2);
+}
+#text{
+    background-color:  #E9B824;
+
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    height: auto;
+    gap: 30px;
+    padding: 50px 16px; 
+    justify-content: center;
+    margin: 0 auto;   
+}
+
+.box img{
+    align-items: center;
+    border-radius: 10px;
+    width: 500px;
+    height: auto; 
+   
+}
+.box h1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.tour{
+    font-size: 30px;
+    text-align: center
+}
+.variousplace{
+    
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.variousplace img{
+    width: 400px;
+}
+.variousplace p{
+    text-align: center;
+    width: 800px;
+    font-family: 'monument';
+}
+.variousplace h2{
+    font-family: 'monument';
+    font-weight: bold;
+
+}
+button{
+    color:white;
+    background-color: #E9B824;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+button:hover{
+    background-color:rgb(245, 245, 223);
+    box-shadow: 0 0 10px ;
+    transform: scale(1.1);
+}
+ 
+.rdmore{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+    height: 300px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: url(village.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 500px;  
+          
+}
+
+.rdmore h3{
+    font-size: 50px;
+    font-family: 'monument';
+    text-align: center;
+    color: #fff;
+    
+}
+footer{
+    margin-top: -60px;
+}
+
+.footercontent{
+    display: flex;
+    padding: 20px 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+   
+
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+
+}
+
+.footercontent img{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.footercontent p{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
